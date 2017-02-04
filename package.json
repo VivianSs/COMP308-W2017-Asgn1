@@ -1,5 +1,5 @@
 {
-  "name": "comp308-w2017-lesson3",
+  "name": "comp308-w2017-assignment1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VivianSs/COMP308-W2017-Lesson3.git"
+    "url": "git+https://github.com/VivianSs/COMP308-W2017-Asgn1.git"
   },
   "keywords": [
     "NodeJS",
@@ -31,7 +31,8 @@
   "author": "Sisi Li",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VivianSs/COMP308-W2017-Lesson3/issues"
+    "url": "https://github.com/VivianSs/COMP308-W2017-Asgn1/issues"
   },
-  "homepage": "https://github.com/VivianSs/COMP308-W2017-Lesson3#readme"
+  "homepage": "https://github.com/VivianSs/COMP308-W2017-Asgn1#readme",
+  "devDependencies": {}
 }
