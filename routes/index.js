@@ -3,10 +3,10 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', (req, res, next)=> {
-  let curretDate = new Date();
+ 
   res.render('index', { 
-    title: 'Home' ,
-    date: curretDate.getHours()
+    title: 'Home' 
+
   });
 });
 

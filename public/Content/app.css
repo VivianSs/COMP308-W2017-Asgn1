@@ -1,1 +1,29 @@
 /*  custom css*/
+
+body {
+    background-color:#484c51;
+ 
+}
+h1{
+    font-family: "Impact, Charcoal, sans-serif";
+    font-size: 10em;
+    font-weight: bold;
+}
+
+p{
+    font-family: Georgia, serif;
+}
+
+div.home{
+    color:white;
+    overflow: hidden;
+}
+
+div.homeImg{
+    float: left;
+}
+
+
+
+
+
