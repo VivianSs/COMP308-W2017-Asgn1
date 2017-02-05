@@ -1,27 +1,54 @@
 /*  custom css*/
-
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 body {
     background-color:#484c51;
  
 }
-h1{
+h1.name{
+    font-family: 'Old Standard TT', serif;
+    font-size: 9em;
+    font-style: italic;
+    color:#afa8a8;
+    padding-bottom: 25%
+    
+}
+h2.welcome {
     font-family: "Impact, Charcoal, sans-serif";
-    font-size: 10em;
+    font-size: 5em;
     font-weight: bold;
+    color: #afa8a8;
+    padding-left: 10%;
+    padding-top: 10%;
+    
 }
 
-p{
-    font-family: Georgia, serif;
+
+div.intro {
+     font-family: Georgia, serif;
+     color: white;
+     font-size: 15px;
+      padding:9% 9% 4% 9%;
+      margin: auto 15%;
+      background-color: #afa8a8;
+}
+div.left{
+    
+     width:650px;
+     padding-left: 8%;
+     padding-top: 25%;
+     float:left;
+     height:100%;
+     text-align: right;
+  
 }
 
-div.home{
-    color:white;
-    overflow: hidden;
+div.right{
+    
+      margin-left: 50%;
+   
 }
 
-div.homeImg{
-    float: left;
-}
+
 
 
 
