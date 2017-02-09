@@ -1,52 +1,75 @@
 /*  custom css*/
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 body {
-    background-color:#4a4a4a;
- 
-}
-h1.name{
-    font-family: 'Old Standard TT', serif;
-    font-size: 9em;
-    font-style: italic;
-    color:#afa8a8;
-    padding-bottom: 25%
-    
-}
-h2.welcome {
-    font-family: "Impact, Charcoal, sans-serif";
-    font-size: 5em;
-    font-weight: bold;
-    color: #afa8a8;
-    padding-left: 10%;
-    padding-top: 10%;
-    
-}
-
-
-div.intro {
-     font-family: Georgia, serif;
-     color: white;
-     font-size: 15px;
-      padding:9% 9% 4% 9%;
-      margin: auto 15%;
-      background-color: #afa8a8;
-}
-div.left{
-    
-     width:650px;
-     padding-left: 8%;
-     padding-top: 25%;
-     float:left;
-     height:100%;
-     text-align: right;
   
-}
-
-div.right{
-    
-      margin-left: 50%;
+    /* Location of the image */
+  background-image: url(/Assets/images/background.png);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+   background-color: #464646;
    
 }
+
+nav {
+     opacity: 0.7;
+     background-color: #64FCEF;
+     
+}
+
+.active {
+    background-color: lightblue;
+}
+.content{  
+    text-align: center;
+    background-color:rgba(49,87,102,0.5);
+    margin:0 20%;
+    }
+
+
+#name{
+    font-family: 'Oswald', sans-serif;
+    font-size: 9em;
+    font-weight: bold;
+    color:#64FCEF;
+    text-align: center;
+}
+#welcome {
+      margin-top: 5%;
+      font-size: 4em;
+      text-align: center;
+      color:white;
+      font-family: 'Indie Flower', cursive;
+}
+
+.intro {
+     font-family: Georgia, serif;
+      color: white;
+      font-size: 15px;
+      margin-top: 10%;
+      width:40%;  
+      margin: 10% 30%;
+}
+
+
+
+
 
 
 
