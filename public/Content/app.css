@@ -29,19 +29,16 @@ body {
 
 nav {
      opacity: 0.7;
-     background-color: #64FCEF;
-     
+     background-color: #64FCEF;    
 }
 
 .active {
     background-color: lightblue;
 }
-.content{  
-    text-align: center;
-    background-color:rgba(49,87,102,0.5);
-    margin:0 20%;
-    }
 
+#home {
+    text-align: center;
+}
 
 #name{
     font-family: 'Oswald', sans-serif;
@@ -57,15 +54,29 @@ nav {
       color:white;
       font-family: 'Indie Flower', cursive;
 }
-
-.intro {
-     font-family: Georgia, serif;
-      color: white;
-      font-size: 15px;
-      margin-top: 10%;
-      width:40%;  
-      margin: 10% 30%;
+.container {
+      background-color:rgba(49,87,102,0.5);
+      color:white;
+      max-width: 60%;
 }
+
+h1, h2, h3 {
+    color:#64FCEF;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 4em;
+    margin: 5% auto;
+}
+
+p {
+      font-family: Georgia, serif;
+      color: white;
+}
+img {
+    margin: 5%;
+}
+
+
 
 
 
