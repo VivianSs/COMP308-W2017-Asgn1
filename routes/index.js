@@ -33,15 +33,22 @@ router.get('/projects', (req, res, next) => {
 
 /* GET services page. */
 router.get('/services', (req, res, next) => {
+  sentences = ['Since I have been studying software engineering for 3 years, I can offer seversl services.',
+  'The following are services that I can offer to you'];
   res.render('content/services', {
-    title: 'Services'
+    title: 'Services',
+    sentences:sentences
    });
 });
 
 /* GET contact page. */
 router.get('/contact', (req, res, next) => {
+  sentences = ['If you have any concern or question, please feel free to contact me',
+  'sli167@my.centennialcollege.ca',
+  '416-833-2598'];
   res.render('content/contact', {
-    title: 'Contact'
+    title: 'Contact',
+    sentences:sentences
    });
 });
 
