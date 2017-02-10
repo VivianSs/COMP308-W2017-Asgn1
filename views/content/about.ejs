@@ -1,19 +1,31 @@
 <% include ../partials/header.ejs %>
+<div class="container">
 <!-- CONTENT PAGE FOR ABOUT -->
-<h1><%= title %> Me </h1>
 
-<% include ../partials/head.ejs %>
-<img src="/Assets/images/me1.png" alt="" class="img-rounded">
-<p><%= present %></p>
+<% include ../partials/jumbotron.ejs %>
+
+   <div class="row">
+   <div class="col-md-8">
+   <img src="/Assets/images/me1.png" alt="" class="img-rounded">
+   </div>
+   <div class="col-md-4">         
+   <p> It is my personal mission that to become a good web developer or android developer so that I can improve myself and help my family to live in a better life. </p>     
+   <p>I have passion for web development,and also mobile development. I really enjoy programming and finally seeing my achievements. Especially when I have spent lots of time to solve bugs and then find best solutions to deal with it.</p>
+   
+   </div>
+   </div>
 <div class="row">
-  <div class="col-md-4 col-md-offset-4">
+<div class="col-md-4"> 
+    <p>I am a self-driven person, so I can work independently and effeciently. At the same time, I am able to collaborate with others as a team member in order to build team effort.</p>
+    <p>To gain more knowledge and improve technical skills is my main purpose by now. In the future, I am willing to provide my ideas, techical skills, experiences to my company in order to help the company grow the business.</p>
+ </div> 
+  <div class="col-md-8">
   <img src="/Assets/images/me2.png" alt="" class="img-rounded">
   </div>
-</div>
-        
-       
-          
-  
 
-  
+</div>
+
+   
+       
+  </div> <!-- /container -->
 <% include ../partials/footer.ejs %>

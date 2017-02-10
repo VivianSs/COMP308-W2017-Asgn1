@@ -60,20 +60,42 @@ nav {
       max-width: 60%;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color:#64FCEF;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-size: 4em;
     margin: 5% auto;
 }
+h3{
+   color:#64FCEF; 
+   font-weight: bold;
+   font-family: 'Oswald', sans-serif;
+   margin-top:5%;
+} 
+
 
 p {
       font-family: Georgia, serif;
       color: white;
+      font-size: 15px;
 }
-img {
-    margin: 5%;
+
+.main {
+    text-align: center;
+    margin:auto 10%;
+    
+}
+
+.row {
+    margin-top: 8%;
+}
+.marketing {
+margin-top: 0%;
+}
+
+.projectImg{
+    margin: 5% auto;
 }
 
 
