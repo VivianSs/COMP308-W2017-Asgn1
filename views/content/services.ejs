@@ -2,10 +2,14 @@
 <!-- CONTENT PAGE FOR SERVICES -->
   <div class="container">
   <% include ../partials/jumbotron.ejs %>
+  <div class = 'service'>
+  <ul>
+      <% services.forEach(function(service) { %>
+       <li> <h3><%= service.name %></h3></li>
+         <p><%= service.description %></p>
+    <% }); %>
+    </ul>
+  </div>
 
-
-
-
-  
   </div> <!-- /container -->
 <% include ../partials/footer.ejs %>

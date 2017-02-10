@@ -33,11 +33,18 @@ router.get('/projects', (req, res, next) => {
 
 /* GET services page. */
 router.get('/services', (req, res, next) => {
+  let services = [
+    { name: 'Android development', description:'Android is a mobile operating system developed by Google, based on the Linux kernel and designed primarily for touchscreen mobile devices such as smartphones and tablets. What I can provide is to develop android application by using different APIs such as animation and grphics, location with Google Play services, data storage(Preferences, SQLite databases, Cache files), Content Providers, networking and connectivity, send SMS and so on.'},
+    { name: 'JavaEE development', description:'Java EE is a widely used computing platform for enterprise software. Java EE extends the Java Platform, Standard Edition (Java SE), providing an API for object-relational mapping, distributed and multi-tier architectures, and web services. I can offer the services like persistence which contains the contracts between a persistence provider and the managed classes and the clients of the Java Persistence API (JPA). Also I provide services to build website based on Enterprise JavaBean(EJB) in order to provide transactions (using JTA), remote procedure calls (using RMI or RMI-IIOP), concurrency control, dependency injection and access control for business objects.'},
+    { name: 'ASP.Net development', description:'ASP.NET is an open-source server-side web application framework designed for web development to produce dynamic web pages. It was developed by Microsoft to allow programmers to build dynamic web sites, web applications and web services. I experienced a term project which was a simple e-commerce site by using ASP.Net within a team. I can offer the Entity Framwork, HTML, JavaScript services to build a great performance application or webiste based on ASP.Net freamwork.  '},
+    { name: 'SQL', description:'SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). I can offer MySQL, Microsoft SQL Sever, and Oracle services to connect databases with various kinds of development tools or applications such as Eclipse, androis studio, visual studio and so on.'}
+  ]
   sentences = ['Since I have been studying software engineering for 3 years, I can offer seversl services.',
   'The following are services that I can offer to you'];
   res.render('content/services', {
     title: 'Services',
-    sentences:sentences
+    sentences:sentences,
+    services:services
    });
 });
 
