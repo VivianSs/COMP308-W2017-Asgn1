@@ -97,14 +97,17 @@ margin-top: 0%;
 .projectImg{
     margin: 5% auto;
 }
-form{
-margin-top: 10%;
-}
 
-.service {
+.content {
     margin: auto 10%;
 }
-
+footer {
+    margin-top: 10%;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
 
 
 

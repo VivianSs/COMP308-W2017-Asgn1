@@ -2,7 +2,7 @@
 <!-- CONTENT PAGE FOR SERVICES -->
   <div class="container">
   <% include ../partials/jumbotron.ejs %>
-  <div class = 'service'>
+  <div class = "content">
   <ul>
       <% services.forEach(function(service) { %>
        <li> <h3><%= service.name %></h3></li>
@@ -10,6 +10,6 @@
     <% }); %>
     </ul>
   </div>
-
-  </div> <!-- /container -->
 <% include ../partials/footer.ejs %>
+  </div> <!-- /container -->
+<% include ../partials/scripts.ejs %>
