@@ -1,30 +1,22 @@
-/*  custom css*/
+/*
+File name: app.css
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a custom css file 
+*/
+
+/* font section*/
 @import url('https://fonts.googleapis.com/css?family=Old+Standard+TT');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+
 body {
-  
-    /* Location of the image */
   background-image: url(/Assets/images/background.png);
-  
-  /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
-  /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
-  /* Background image is fixed in the viewport so that it doesn't move when 
-     the content's height is greater than the image's height */
   background-attachment: fixed;
-  
-  /* This is what makes the background image rescale based
-     on the container's size */
   background-size: cover;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
-   background-color: #464646;
-   
+  background-color: #464646;  
 }
 
 nav {
@@ -59,7 +51,6 @@ nav {
       color:white;
       max-width: 60%;
 }
-
 h1, h2 {
     color:#64FCEF;
     font-family: 'Oswald', sans-serif;
@@ -73,8 +64,6 @@ h3{
    font-family: 'Oswald', sans-serif;
    margin-top:5%;
 } 
-
-
 p {
       font-family: Georgia, serif;
       color: white;
@@ -86,18 +75,15 @@ p {
     margin:auto 10%;
     
 }
-
 .row {
     margin-top: 8%;
 }
 .marketing {
 margin-top: 0%;
 }
-
 .projectImg{
     margin: 5% auto;
 }
-
 .content {
     margin: auto 10%;
 }

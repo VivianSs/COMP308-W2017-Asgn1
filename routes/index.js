@@ -51,8 +51,9 @@ router.get('/services', (req, res, next) => {
 /* GET contact page. */
 router.get('/contact', (req, res, next) => {
   sentences = ['If you have any concern or question, please feel free to contact me',
-  'sli167@my.centennialcollege.ca',
-  '416-833-2598'];
+  'Email: sli167@my.centennialcollege.ca',
+  'Phone: 416-833-2598'
+   ];
   res.render('content/contact', {
     title: 'Contact',
     sentences:sentences

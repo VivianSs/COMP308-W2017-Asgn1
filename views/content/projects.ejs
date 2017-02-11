@@ -1,11 +1,19 @@
-<% include ../partials/header.ejs %>
-<!-- CONTENT PAGE FOR PROJECTS -->
+<!--
+File name: projects.ejs
+Author's name: Sisi Li
+Web site name: Sisi's Portfilo
+File description: this is a prjects ejs templet
+-->
+
+<% include ../partials/header.ejs %><!-- include the navigation bar-->
+
+<!-- content section -->
 <div class="container">
- 
- <% include ../partials/jumbotron.ejs %>
- <div class = "content">
+ <% include ../partials/jumbotron.ejs %><!-- include the jumbotron -->
+<div class = "content">
 <h3>Clinic Administration System</h3>
 <p>It is a clinic administration system for managing patients' information by storing data in SQLite database. </p>
+<!-- create rows to display clinic project image and description -->
  <div class="row marketing">
          <div class="col-lg-6">
           <img src="/Assets/images/clinicProject/clinic1.PNG" alt="" class="projectImg">
@@ -23,7 +31,7 @@
 
 <h3>Contacts Management System</h3>
 <p>It is a contacts management system for administrators to manage contacts by using JavaEE persistence and JSP</p>
-
+<!-- create rows to display contact management project image and description -->
 <div class="row">
    <div class="col-md-8">
     <img src="/Assets/images/contactManagementProject/contact1.PNG" alt="">
@@ -62,7 +70,7 @@
 
  <h3>Restaurant Menu Order Application</h3>
  <p>This is a simple restaurant menu order application by using JavaEE.</p>
-  
+  <!-- create rows to display restaurant menu order project image and description -->
   <div class="row">
    <div class="col-md-8">
     <img src="/Assets/images/restaurantProject/restaurant1.PNG" alt="">
@@ -97,6 +105,6 @@
    </div>
 </div>
 </div>
-<% include ../partials/footer.ejs %>
+<% include ../partials/footer.ejs %><!-- include the footer partial --> 
 </div> <!-- /container -->
-<% include ../partials/scripts.ejs %>
+<% include ../partials/scripts.ejs %> <!-- include the scripts -->
